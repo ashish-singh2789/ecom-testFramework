@@ -1,0 +1,20 @@
+{
+  "name": "e-commerce",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test:playwright": "playwright test --headed 'spec.ts' --config=test/config/playwright.config.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.35.1",
+    "@types/chai": "^4.3.14",
+    "chai": "^5.1.0",
+    "node-fetch": "^3.3.2",
+    "typescript": "^5.4.5"
+  }
+}
